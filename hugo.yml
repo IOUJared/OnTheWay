@@ -44,7 +44,7 @@ params:
   hideFooter: true
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
@@ -112,10 +112,10 @@ menu:
       name: contact
       url: /contact/
       weight: 10
-#    - identifier: tags
-#      name: tags
-#      url: /tags/
-#      weight: 20
+    - identifier: gallery
+      name: gallery
+      url: /gallery/
+      weight: 20
     - identifier: site
       name: onthewaytogo.com
       url: https://onthewaytogo.com
@@ -125,8 +125,8 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai

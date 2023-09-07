@@ -62,7 +62,7 @@ params:
     enabled: true # needs to be explicitly set
     title: On The Way Storage
     subtitle: "Rent a unit"
-    imageUrl: /outside_unit.jpg
+    imageUrl: /outside_unit.webp
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image

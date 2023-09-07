@@ -58,31 +58,28 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: On My Way Storage
+    subtitle: "Rent a unit"
+    imageUrl: "https://lh3.googleusercontent.com/fife/AKsag4OhjoinhIGHhC_tUZJKofhj_iq_EPQYD8cjU-BZ2tlWG9jo1ECRv-tHPAazRKflVBOyOIc9lc-LJNOj4Y5X0DZ9oLNdJPYPYgkq2fwgu0xIP3JkRH5giKeF2z6kQSF2a0rE2QLyrcqauFzr3iUd_mzJI9tqTw6xe95etuqrZ4OGRfLoahGg119fr3NoiNLoOVE8JcqnS2iMAJ4sMsTkcfhY7hW3CBqrhlu2PPf-jd8xdMPq59tD9c28eszajMaFCoxlz9l4GNAOfXZiZxvJnMRiWUpIpwPvWQ524RUASDhUjbUOKa9qG65MpwvRymLRaYU0kCuIy5siPhqhE5-drM6sxHNFezsVS1wcqTfRq_vfPtrL5uGFEhD3iw2nGDnJyb76sX2DBDtTpcLzK63RT2bSc4TFJ0uBicAEmOThjx0Ppr4JUO48mcY_KIhA-gw0p6rf7SP4iBfPjTJTyuX28vSRCcufI0X5Aio4V4H4-lML_nM7IOrPM7dOezB8_xEgMLxTTjS_wGjxHveKxU1HwTp1a2mhs9ftF3dKFylxTBWduOEVIvOH2u7ZdQ9iW46YYoegfeDT7iEbbsdmwkf53zl0rGWuZzkJWGIQqE9-BmI0oZitN-6fd0OFi0xskmh-j0a_ACQ0iptsQMCUWrN9kiCupYHTjFHpv2E04kzYggy5aWTtH8LgTPRsgR9NYRi8yCkcZw4jYosqszTAb46np8o8SuKy4xCrL8ErflNovIiFHlzViDGKk4aiqpaPNXsLRUWmVzpepKj_KNCaCxMB2J2kK81cNIFDAiGx-wuSs6VcuKjefjNDOesiBEKbnD3kXX2dZXv90gLAt1WVGq37mkhJXVrIjdSS3mEm85hjP8Zg5taF3Z9jLp5rCnJquNGbvOpxBN7HBiPKJad2cGE5a1wl-5zdZScH3B8yXb4zFvIF2FfRtjr_EPaJBwmU2eP-GEPliFgr8j1D2Yeg1ouvsD6Tq4DuYEAgioXzEts34-Z1qDStvFLUB5JmCr_iUbVDqjWjt6fuKLznLkuOHNU0yyolhyiWiOnRIy5QqBFiV7_TUCs71q8lHryO7UaPTnHC9L28L62X6jJeTsaIKyYoQitp9Da2UjbfRWXTcH27yUMg7PxJPeynJDXqE2duYPZ1mQ4VqOXsNHJaSae2wCKBMA6IUo6BlTmn3MVZ17zQyzi4d4XsnEwCfRVlH1eIFVzi3jgCiwcQoJxKJ8-D-SX1Fvxa1KuKKtz0q4mErn_1aSU5_GCqvEQXDMbndvmFxewgg86e6VtwldZwWmeaDqGRVIGv5VgKnGbbl5UhKkiyiAGudotNkKUuVLmAtZdbIgjPD4dbsldijiZcw8pTfFkUaiuYiIj40n0yQcEqsem3lOyVlHcb2wtMOiQRKf2Xe929Ixc54btZ_Lr7WlYCIMyMr_Lx24gvie8DKn7fRtLbvNSu49Ea9DJGZkJSC5jJyIAgdlczbprQz9YyDlHV0MhcI4vA0dOjvexrb0z4x_3523VB7VmM1EAunu3bgqieTmqY35JzYn1zJAqRPNLCe6GKU-pB0xfvUZpiqVFA5fIU2tI24DNLGrGIB4I-UbvUaXfYKw=w1337-h1003-s-no?authuser=0"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: Contact
+        url: contact
+      - name: Gallery
+        url: gallery
 
   # home-info mode
-  homeInfoParams:
-    Title: "On The Way Storage Rental"
-    Content: 
 
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+#  socialIcons:
+#    - name: twitter
+#      url: "https://twitter.com/"
+#    - name: stackoverflow
+#      url: "https://stackoverflow.com"
+#    - name: github
+#      url: "https://github.com/"
 
   analytics:
     google:
@@ -97,10 +94,6 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/IOUJared/OnTheWay/tree/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html

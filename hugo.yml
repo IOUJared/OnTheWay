@@ -1,5 +1,5 @@
-baseURL: "https://onthewaytogo.com/"
-title: onthewaytogo
+baseURL: "https://onthewaystoragemo.com/"
+title: ontheway
 paginate: 5
 theme: PaperMod
 
@@ -117,8 +117,8 @@ menu:
       url: /gallery/
       weight: 20
     - identifier: site
-      name: onthewaytogo.com
-      url: https://onthewaytogo.com
+      name: onthewaystoragemo.com
+      url: https://onthewaystoragemo.com
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
